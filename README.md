@@ -37,7 +37,7 @@ feedback.csv  # Stores user feedback for retraining
 
 
 
-**⚡ Requirements**
+**Requirements**
 
 Python 3.9+
 
@@ -54,6 +54,7 @@ Optional:
 GPU support for faster retraining.
 
 ** Usage**
+
 1. Load the model
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 

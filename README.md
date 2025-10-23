@@ -16,6 +16,9 @@ Lightweight and efficient using DistilBertForSequenceClassification.
 Tokenizer and model saved locally for offline usage.
 
 **📂 Folder Structure**
+
+
+
 distilbert_model/
  ├── config.json
  ├── model.safetensors
@@ -31,6 +34,8 @@ data/
  └── airline_intents_clean.csv
 
 feedback.csv  # Stores user feedback for retraining
+
+
 
 **⚡ Requirements**
 

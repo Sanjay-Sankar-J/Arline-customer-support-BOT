@@ -1,4 +1,4 @@
-**Project Overview**
+1.**Project Overview**
 
 This repository contains a DistilBERT-based model for airline intent classification.
 The model classifies customer queries into predefined intents and supports retraining using feedback data.
@@ -15,7 +15,7 @@ Lightweight and efficient using DistilBertForSequenceClassification.
 
 Tokenizer and model saved locally for offline usage.
 
-**📂 Folder Structure**
+2.**📂 Folder Structure**
 
 
 
@@ -37,7 +37,7 @@ feedback.csv  # Stores user feedback for retraining
 
 
 
-**Requirements**
+3.**Requirements**
 
 Python 3.9+
 
@@ -53,7 +53,7 @@ Optional:
 
 GPU support for faster retraining.
 
-** Usage**
+4.**Usage**
 
 1. Load the model
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
@@ -72,7 +72,7 @@ After retraining, the updated model overwrites the existing model in distilbert_
 
 feedback.csv is cleared automatically after retraining.
 
-** Dataset**
+**Dataset**
 
 Original dataset: data/airline_intents_clean.csv
 
@@ -86,13 +86,13 @@ Feedback dataset: feedback.csv
 
 Columns: text, intent
 
-**Notes**
+5.**Notes**
 
 Large model files (model.safetensors) are not ideal for GitHub; consider using Git LFS.
 
 You can add new intents; retraining will automatically update label2id mapping.
 
-📖 References
+6.**References**
 
 Hugging Face Transformers
 

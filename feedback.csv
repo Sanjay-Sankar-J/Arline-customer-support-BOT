@@ -1,0 +1,39 @@
+text,intent
+i want to cancel my ticket,check_cancellation_fee
+i want to cancel my ticket,check_cancellation_fee
+i want cancel my ticket,check_cancellation_fee
+i need to change my ticket,change_shipping_address
+i want cahge address,change_shipping_address
+i want change adrress,change_order
+i want change order addrees,change_order
+i want to cahnge address,change_shipping_address
+i want change address,change_shipping_address
+where can i get information about canceling an order,cancel_order
+help me cancelling my last order,cancel_order
+"help me cancelling my last order,cancel_order",check_invoice
+help me cancelling my last order,cancel_order
+"help me cancelling my last order,cancel_order",check_payment_methods
+help me cancelling my last order,cancel_order
+help me cancelling my last order,cancel_order
+i want help removing several items from an order,change_order
+i want help removing several items from an order,change_order
+"i want help removing several items from an order,change_order",check_invoice
+"i want help removing several items from an order,",change_order
+problem with removing something from an order,change_order
+problem with removing something from an order,change_order
+"problem with removing something from an order,",check_invoice
+"problem with removing something from an order,",change_order
+problem with removing something from an order,change_order
+"problem with removing something from an order,change_order",check_invoice
+i need change address,check_cancellation_fee
+i need change address,check_cancellation_fee
+i need change address,change_shipping_address
+i need change address,delivery_period
+i need change address,change_shipping_address
+change my address,change_shipping_address
+i want change my address ],change_shipping_address
+where cancel my flight,cancel_order
+change credit card,check_cancellation_fee
+i want to change my address,change_shipping_address
+i want to cancel,cancel_order
+i want to cancel,cancel_order

@@ -1,0 +1,9 @@
+torch
+transformers
+datasets
+pandas
+scikit-learn
+flask
+xlrd
+streamlit
+googletrans

@@ -3,7 +3,7 @@
 This repository contains a DistilBERT-based model for airline intent classification.
 The model classifies customer queries into predefined intents and supports retraining using feedback data.
 
-1.1 1.**Features**
+1.1 **Features**
 
 Multi-class intent classification using DistilBERT.
 

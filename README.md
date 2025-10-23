@@ -19,19 +19,8 @@ Tokenizer and model saved locally for offline usage.
 
 
 
-distilbert_model/
- ├── config.json
- ├── model.safetensors
- ├── tokenizer.json
- ├── tokenizer_config.json
- ├── vocab.txt
- └── special_tokens_map.json
+<img width="407" height="402" alt="image" src="https://github.com/user-attachments/assets/6f8e11a8-4c96-40e1-b1d5-04ff3f45d495" />
 
-backend/
- └── train_model.py
-
-data/
- └── airline_intents_clean.csv
 
 feedback.csv  # Stores user feedback for retraining
 
